@@ -1,9 +1,17 @@
 # A8: Large Language Models
 
 ## Instructions
-For this assignment, you are welcome to use any modern AI Chatbot you want unless specified. As we looked at in class you can use ChatGPT 3.5, Microsoft Co-Pilot, Google Gemini, and Claude AI (requires a phone #) for free. Some of these models require you to make a free account and/or link a Google account. 
+For this assignment, you are welcome to use any modern AI Chatbot you want unless specified. Some of the main free models are:
 
+- Microsoft Co-pilot - Free in the [Edge Browser](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
+- [ChatGPT](https://chat.openai.com/) - Requires free account for ChatGPT 3.5
+- [Google Gemini](https://gemini.google.com/app) - Requires a gree Google account.
+- [Claude AI](https://claude.ai/chat) - Requires a free account and a phone number. 
 
+> [!IMPORTANT]
+> For all tasks, always start a fresh conversation for each prompt. 
+
+If you change models inbetween questions, please note which model you switched to. 
 
 ## Part 1: Prompt Engineering Techniques
 
@@ -37,16 +45,20 @@ Task: Disposing of Rippleskip juice.
 
 ---
 
-1.1 Try giving the prompt to the AI Chatbot of your choice. Paste its response here
+1.1 Try giving the prompt to the AI Chatbot of your choice. Paste its response here and note which model you used. 
 
 >
 > Paste response here
 >
 
 1.2 Highlight the following parts of the prompt/prompting strategies in it's text above. 
+
 1.2.1 Make the part of the prompt which uses **one shot learning bold**. 
+
 1.2.2 Make the part of the prompt which uses *chain-of-thought prompting italic*. 
+
 1.2.3 Make the part of the prompt which uses ~~role-giving crossed-through~~. 
+
 1.2.4 Make the part of the prompt which gives the task description `formatted as code`. 
 
 

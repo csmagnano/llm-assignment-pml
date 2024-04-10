@@ -86,11 +86,9 @@ Be sure to start a fresh conversation each time.
 
 2.1.1 Try using the following prompt, replacing the blank with a field you’re interested in. Paste your prompt and the response.
 
----
-
+```
 You are a helpful research scientist. Create a small report on the use of AI in ________. Include citations and a references section.
-
----
+```
 
 >
 > Paste your prompt here.
@@ -106,18 +104,18 @@ You are a helpful research scientist. Create a small report on the use of AI in 
 
 2.2.1 Head to (https://quiz.cord.com/)[https://quiz.cord.com/] and try to get the AI to get the questions correct. Paste a screenshot of your score here. 
 
-> [NOTE]
+> [!NOTE]
 > You will not be graded on the number of questions the AI gets correct, just that you completed the quiz. 
 
 > Insert your screenshot Here
 
-2.2.2 Based on that quiz, what are two things LLMs struggle with?
+2.2.2 Based on that quiz, what are two tasks LLMs struggle with?
 
 >
 > Your response here.
 >
 
-2.2.3 For each thing you mentioned above, create a prompt which an LLM would struggle to get correct. 
+2.2.3 For each struggle/task you mentioned above, create a prompt which an LLM would struggle to get correct. 
 
 >
 > Prompt for struggle 1 here.
@@ -129,8 +127,109 @@ You are a helpful research scientist. Create a small report on the use of AI in 
 
 ## Part 3: Comparing Models
 
-Let’s see how different models compare. Head over to (https://chat.lmsys.org/)[https://chat.lmsys.org/]. 
+3.1.1 Give the prompt to the AI Chatbot of your choice and paste its response. 
 
-3.1 Try to 
+```
+Answer the following question in 3-5 sentences. When would somebody use milk for cooking versus using water?
+```
 
-Negation and the students’ two from above, try at least 4 models (2 runs each). Paste all results here, vote and which did you think did better? Why was the response better?
+>
+> Paste Response Here
+>
+
+Let's compare some model performance. Head over to the Chatbot Arena: (https://chat.lmsys.org/)[https://chat.lmsys.org/]. 
+
+3.1.2 One task LLM models can struggle with is *negation*, tasks similar to adding "not" or trying to make something its opposite. 
+Let's see how different models compare in the negation task. 
+
+Take the milk vs. water response you pasted above and use it as the basis for a new prompt with the following format.
+
+```
+Create the opposite of the following paragraph, where each sentence has the same general structure but now means its opposite:
+
+[PUT YOUR MILK VS. WATER RESPONSE HERE]
+```
+
+Try this negation prompt in the Chatbot Arena for 4 models, or 2 runs total. It's okay if one of the models happens to repeat. Record the 4 models and their responses below. 
+Remember to also vote for your preference on the website between each pair!
+
+> Model 1: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 2: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 3: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 4: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+3.1.3 Which models suceeded versus didn't suceed at the task? Which model gave, in your opinion, the best response and why?
+
+>
+> Your Response Here
+>
+
+Now see how models perform for each of the two prompts you created in question 2.2.3. Record the responses and give your thoughts below. 
+
+3.3.1 Prompt 2:
+
+> Model 1: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 2: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 3: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 4: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+3.2.2 Which models suceeded versus didn't suceed at the task? Which model gave, in your opinion, the best response and why?
+
+>
+> Your Response Here
+>
+
+3.3.1 Prompt 1:
+
+> Model 1: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 2: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 3: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+
+> Model 4: [PUT MODEL NAME HERE]
+>
+> Paste Response Here
+
+3.3.2 Which models suceeded versus didn't suceed at the task? Which model gave, in your opinion, the best response and why?
+
+>
+> Your Response Here
+>
